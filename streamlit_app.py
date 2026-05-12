@@ -13,5 +13,5 @@ elif bagi.button(":"):
    st.subheader(f"{number1}/{number2}={number1/number2}")
 elif kurang.button("x"):
    st.subheader(f"{number1}x{number2}={number1*number2}")
-if reset.button("reset"):
+if st.button("reset"):
     st.rerun()
